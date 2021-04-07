@@ -1,0 +1,72 @@
+body
+{
+background-image:linear-gradient(90deg,rgb(250, 242, 173),rgb(150, 239, 255),lightpink);
+background-size:cover;
+font-family: 'Lobster', cursive;
+}
+
+.header
+{
+    background-color: rgb(247, 150, 174);
+    font-size:30px;
+    width:50%;
+    color:white;
+}
+
+.header2
+{
+   float:none;
+   font-size:25px;
+}
+
+.list
+{
+    background-color: rgb(203, 243, 250);
+    font-size:20px;
+}
+
+.member
+{
+    background-color:rgb(250, 242, 173);
+    font-size:19px;
+    margin-top:550px;
+}
+.accuracy
+{
+    background-color:rgb(250, 242, 173);
+    font-size:19px; 
+}
+.footer
+{
+    position:fixed;
+    bottom:0;
+    background-color:lightslategrey;
+    text-align:center;
+    width:100%;
+    line-height:2.5;
+    font-size:20px;
+    color:white;
+}
+
+canvas
+{
+position:center;
+margin-bottom:400px;
+animation: example 5s infinite;
+}
+
+@keyframes example
+{
+    0%
+    {
+        border: 7px solid mediumpurple;
+    }
+    50%
+    {
+        border: 7px ridge rgb(7, 187, 241);
+    }
+    100%
+    {
+        border: 7px solid rgb(237, 247, 152);
+    }
+}
